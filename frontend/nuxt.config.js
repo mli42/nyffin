@@ -8,7 +8,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate(pageTitle) {
-      return pageTitle ? `${pageTitle} - Nyffin Esport` : 'Nyffin Esport'
+      return pageTitle ? `${pageTitle} - Nyffin Esport` : 'Nyffin Esport';
     },
     htmlAttrs: {
       lang: 'en',
