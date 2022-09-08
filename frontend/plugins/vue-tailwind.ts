@@ -15,6 +15,7 @@ const settings = {
       fixedClasses: '',
       classes: 'px-5 py-2 border rounded',
       variants: {
+        empty: '',
         navbar: 'hover:text-green-500',
         rounded: '!rounded-full px-2 py-2',
       },

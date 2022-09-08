@@ -3,9 +3,11 @@
     class="bg-nyffinRed text-white flex flex-row justify-between items-center py-2 px-6"
   >
     <!-- Burger -->
-    <div class="md:hidden">Burger</div>
+    <Burger class="md:hidden">
+      <p>Burger Content</p>
+    </Burger>
 
-    <div class="bg-blue-400 rounded-full h-12 w-12" />
+    <NuxtLink class="bg-blue-400 rounded-full h-12 w-12" to="/" />
 
     <!-- Tabs -->
     <div class="hidden md:flex flex-row gap-x-10">
@@ -42,7 +44,7 @@ export default Vue.extend({
       tabs: new Map([
         ['tab.teams', '/teams'],
         ['tab.about', '/about'],
-        ['tab.achievements', '/achievement'],
+        ['tab.achievements', '/achievements'],
       ]),
     };
   },
