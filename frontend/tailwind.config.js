@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        nyffinRed: '#B64545',
       },
-      fontFamily: {
-      },
+      fontFamily: {},
     },
   },
 };

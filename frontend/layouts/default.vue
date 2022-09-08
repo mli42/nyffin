@@ -1,5 +1,6 @@
 <template>
   <div class="">
+    <Navbar />
     <Nuxt />
   </div>
 </template>
