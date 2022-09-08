@@ -1,0 +1,11 @@
+/* From left */
+
+.from-left-enter-active,
+.from-left-leave-active {
+  transition: all 0.75s;
+}
+
+.from-left-enter,
+.from-left-leave-active {
+  left: -100%;
+}

@@ -1,6 +1,5 @@
 <template>
-  <div class="flex flex-col justify-between h-screen w-screen">
-  </div>
+  <div class="flex flex-col"></div>
 </template>
 
 <script lang="ts">
