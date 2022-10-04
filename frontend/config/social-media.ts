@@ -2,7 +2,7 @@ export default [
   {
     name: 'Discord',
     icon: 'SvgDiscord',
-    url: 'https://discord.gg/w2W6xssd',
+    url: 'https://discord.gg/JFV3K9GCjB',
   },
   {
     name: 'Instagram',
