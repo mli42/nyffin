@@ -21,6 +21,7 @@
       <a
         v-for="(media, index) in socialMedias"
         :key="index"
+        :title="media.name"
         :href="media.url"
         target="_blank"
       >
